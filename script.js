@@ -1,4 +1,4 @@
-const apiKey = "f37223828bf5f94da20e8135f41760f3"; // 🔑 Replace with your OpenWeatherMap API key
+const apiKey = "YOUR_API_KEY_HERE"; // 🔑 Replace with your OpenWeatherMap API key
 
 // Function: Get weather by city name
 async function getWeather() {
@@ -58,3 +58,4 @@ async function fetchWeather(url) {
     document.getElementById("weatherResult").innerHTML = "⚠ Error fetching data";
   }
 }
+
